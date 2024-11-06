@@ -1275,6 +1275,34 @@ video {
     height: 7.5rem;
   }
 
+  .md\:h-\[24rem\] {
+    height: 24rem;
+  }
+
+  .md\:h-\[23rem\] {
+    height: 23rem;
+  }
+
+  .md\:h-\[30rem\] {
+    height: 30rem;
+  }
+
+  .md\:h-\[32rem\] {
+    height: 32rem;
+  }
+
+  .md\:h-\[31rem\] {
+    height: 31rem;
+  }
+
+  .md\:h-\[34rem\] {
+    height: 34rem;
+  }
+
+  .md\:h-\[33rem\] {
+    height: 33rem;
+  }
+
   .md\:w-44 {
     width: 11rem;
   }
