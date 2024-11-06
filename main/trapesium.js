@@ -1,17 +1,19 @@
+// Function untuk menghitung luas trapesium
 function hitungLuasTrapesium() {
-  const p_sisi1 = parseFloat(document.getElementById("psisi1").value);
-  const p_sisi2 = parseFloat(document.getElementById("psisi2").value);
+  const sisiA = parseFloat(document.getElementById("sisia").value);
+  const sisiB = parseFloat(document.getElementById("sisib").value);
   const tinggi = parseFloat(document.getElementById("tinggi").value);
-  const hasil = ((p_sisi1 + p_sisi2) * tinggi) / 2;
+  const hasil = ((sisiA + sisiB) * tinggi) / 2; // Rumus luas trapesium
 
   document.getElementById("hasil").textContent = hasil;
 
   return false; // Agar form tidak melakukan submit
 }
 
+// Function untuk mereset form
 function resetForm() {
-  document.getElementById("psisi1").value = "";
-  document.getElementById("psisi2").value = "";
+  document.getElementById("sisia").value = "";
+  document.getElementById("sisib").value = "";
   document.getElementById("tinggi").value = "";
   document.getElementById("hasil").textContent = "";
 }
